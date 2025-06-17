@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* bež */
+  color: #1c1c1c; /* skoro crna */
+  margin: 0;
+}
+
+header {
+  background-color: #8b0000; /* tamno crvena */
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.naslov {
+  font-size: 38px;
+  font-family: 'LuciaSimac', serif;
+  color: #f5f5dc;
+}
+
+h2 {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #3e2723; /* tamno smeđa */
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: #f5f5dc; /* bež tekst */
+  text-decoration: none;
+  padding: 15px 25px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #5d4037; /* svjetlija smeđa */
+}
+
+main, section {
+  padding: 30px;
+  background-color: #ffffff; /* bijela podloga za sadržaj */
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+img, video, embed, iframe {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border: 2px solid #3e2723;
+  border-radius: 5px;
+}
