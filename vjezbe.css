@@ -1,0 +1,45 @@
+li {
+    display: inline;
+    background-color: #006400; /* tamnozelena */
+    margin-right: 2px;
+    width: 300px;
+    height: 10px;
+    border: 2px solid black;
+    padding-top: 5px;
+    box-shadow: 0 0 5px 2px #ccffcc; /* svijetlozelena sjena oko teksta */
+    color: black;
+}
+
+ul {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    list-style: none;
+}
+
+body {
+    background-image: url("multimedija/pozadina3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+li:hover {
+    background-color: #8B0000; /* tamnocrvena */
+}
+
+.list-index-text {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-shadow: 0 0 3px #ccffcc; /* svijetlozelena sjena oko teksta */
+}
+
+p {
+    background-color: rgba(0, 100, 0, 0.75); /* tamnozelena s prozirnošću */
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px #ccffcc; /* svijetlozelena sjena */
